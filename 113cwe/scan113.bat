@@ -1,7 +1,10 @@
 @echo off
 
-REM Import the CodeQL paths from CodeQLPath.bat
-CALL "C:\Users\AKANKSHA KALE\Desktop\Vulnerabilities-Scanner\CodeQLPath.bat"
+REM Set the base directory to the parent directory of this script
+FOR %%I IN ("%~dp0..") DO SET BASE_DIR=%%~fI
+
+REM Import the CodeQL paths from CodeQLPath.bat using the base directory
+CALL "%BASE_DIR%\CodeQLPath.bat"
 
 REM Echo BASE_DIR and DB_PATH for debugging
 echo BASE_DIR: %BASE_DIR%
