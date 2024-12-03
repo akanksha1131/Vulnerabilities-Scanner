@@ -1,0 +1,102 @@
+[
+    {
+        "ruleId": "java/example/path-detection",
+        "ruleIndex": 0,
+        "rule": {
+            "id": "java/example/path-detection",
+            "index": 0
+        },
+        "message": {
+            "text": ""
+        },
+        "locations": [
+            {
+                "physicalLocation": {
+                    "artifactLocation": {
+                        "uri": "app/src/main/java/com/veracode/verademo/controller/UserController.java",
+                        "uriBaseId": "%SRCROOT%",
+                        "index": 0
+                    },
+                    "region": {
+                        "startLine": 602,
+                        "startColumn": 38,
+                        "endColumn": 46
+                    },
+                    "contextRegion": {
+                        "startLine": 600,
+                        "endLine": 604,
+                        "snippet": {
+                            "text": "\t\t\t// Update all session and cookie logic\n\t\t\tUtils.setSessionUserName(request, response, username);\n\t\t\tUtils.setUsernameCookie(response, username);\n\n\t\t\t// Update remember me functionality\n"
+                        }
+                    }
+                }
+            }
+        ],
+        "partialFingerprints": {
+            "primaryLocationLineHash": "f83313edb226b930:1",
+            "primaryLocationStartColumnFingerprint": "34"
+        },
+        "codeFlows": [
+            {
+                "threadFlows": [
+                    {
+                        "locations": [
+                            {
+                                "location": {
+                                    "physicalLocation": {
+                                        "artifactLocation": {
+                                            "uri": "app/src/main/java/com/veracode/verademo/controller/UserController.java",
+                                            "uriBaseId": "%SRCROOT%",
+                                            "index": 0
+                                        },
+                                        "region": {
+                                            "startLine": 527,
+                                            "startColumn": 4,
+                                            "endColumn": 70
+                                        },
+                                        "contextRegion": {
+                                            "startLine": 525,
+                                            "endLine": 529,
+                                            "snippet": {
+                                                "text": "\t\t\t@RequestParam(value = \"realName\", required = true) String realName,\n\t\t\t@RequestParam(value = \"blabName\", required = true) String blabName,\n\t\t\t@RequestParam(value = \"username\", required = true) String username,\n\t\t\t@RequestParam(value = \"file\", required = false) MultipartFile file,\n\t\t\tMultipartHttpServletRequest request,\n"
+                                            }
+                                        }
+                                    },
+                                    "message": {
+                                        "text": "username : String"
+                                    }
+                                }
+                            },
+                            {
+                                "location": {
+                                    "physicalLocation": {
+                                        "artifactLocation": {
+                                            "uri": "app/src/main/java/com/veracode/verademo/controller/UserController.java",
+                                            "uriBaseId": "%SRCROOT%",
+                                            "index": 0
+                                        },
+                                        "region": {
+                                            "startLine": 602,
+                                            "startColumn": 38,
+                                            "endColumn": 46
+                                        },
+                                        "contextRegion": {
+                                            "startLine": 600,
+                                            "endLine": 604,
+                                            "snippet": {
+                                                "text": "\t\t\t// Update all session and cookie logic\n\t\t\tUtils.setSessionUserName(request, response, username);\n\t\t\tUtils.setUsernameCookie(response, username);\n\n\t\t\t// Update remember me functionality\n"
+                                            }
+                                        }
+                                    },
+                                    "message": {
+                                        "text": "username"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

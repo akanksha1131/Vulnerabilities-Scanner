@@ -1,0 +1,16 @@
+[
+    {
+        "artifact": "app/src/main/java/com/veracode/verademo/controller/UserController.java",
+        "full_path": "C:\\Users\\AKANKSHA KALE\\Desktop\\verademo\\app\\src\\main\\java\\com\\veracode\\verademo\\controller\\UserController.java",
+        "stLine_colSt_colEnd": "527_4_70",
+        "message": "username : String",
+        "snippet": "@RequestParam(value = \"realName\", required = true) String realName, @RequestParam(value = \"blabName\", required = true) String blabName, @RequestParam(value = \"username\", required = true) String username, @RequestParam(value = \"file\", required = false) MultipartFile file, MultipartHttpServletRequest request,"
+    },
+    {
+        "artifact": "app/src/main/java/com/veracode/verademo/controller/UserController.java",
+        "full_path": "C:\\Users\\AKANKSHA KALE\\Desktop\\verademo\\app\\src\\main\\java\\com\\veracode\\verademo\\controller\\UserController.java",
+        "stLine_colSt_colEnd": "602_38_46",
+        "message": "username",
+        "snippet": "// Update all session and cookie logic Utils.setSessionUserName(request, response, username); Utils.setUsernameCookie(response, username); // Update remember me functionality"
+    }
+]
