@@ -1,9 +1,9 @@
 :: Set base directory to the location of this script
 SET BASE_DIR=%~dp0
 
-SET "DB_PATH=C:\Users\AKANKSHA KALE\AppData\Roaming\Code\User\workspaceStorage\4ce96addddc27736cd7edc303aa8a1a2\GitHub.vscode-codeql\akanksha1131-verademo-1\java"
-SET "CODEQL_PATH=C:\Users\AKANKSHA KALE\Downloads\codeql-bundle-win64\codeql\codeql.exe"
-SET "PYTHON_PATH=C:\Users\AKANKSHA KALE\AppData\Local\Programs\Python\Python312\python.exe"
+SET "DB_PATH=c:\Users\nikit\AppData\Roaming\Code\User\workspaceStorage\263413e514025e6bfd2dc1326881faf6\GitHub.vscode-codeql\veracode-verademo\codeql_db"
+SET "CODEQL_PATH=C:\codeql\codeql.exe"
+SET "PYTHON_PATH=C:\Users\nikit\AppData\Local\Programs\Python\Python312\python.exe"
 
 :: Set relative paths for CWE113
 SET PATH113=%BASE_DIR%codeql-custom-queries-java\cwe113\path113.ql

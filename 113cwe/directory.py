@@ -30,4 +30,4 @@ step2_py_path = os.path.join(current_directory, "step2.py")
 step4_py_path = os.path.join(current_directory, "step4.py")
 
 #Directory of VeraDemo
-source_code_dir = "C:\\Users\\AKANKSHA KALE\\Desktop\\verademo"
+source_code_dir = "D:\B.tech project\\verademo"
